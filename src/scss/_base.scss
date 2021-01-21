@@ -1,0 +1,122 @@
+:root {
+  --color-primary: #159fc3;
+  --color-secondary: #5d5d5d;
+  --color-bg: #f0f0f0;
+}
+
+// media queries
+$bp-very-very-large: 93.75em; //1500px
+$bp-largest: 75em; //1200px
+$bp-large: 62.5em; //1000px
+$bp-medium: 56.25em; //900px
+$bp-small: 37.5em; //600px
+$bp-smallest: 31.25em; //500px
+$bp-smartphone: 27.5em; //440px
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px  10px/16px = 62.5%
+  scroll-behavior: smooth;
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 53%;
+  }
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #fff;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  outline: none;
+  justify-content: center;
+}
+
+button:focus {
+  outline: none;
+}
+
+// H3 SECTION TITLES
+h3 {
+  padding: 3.5rem 0;
+  padding-bottom: 5.5rem;
+  font-size: 4rem;
+  text-align: center;
+
+  @media only screen and (max-width: $bp-smartphone) {
+    padding-bottom: 3.5rem;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 7rem;
+    border: 1px solid var(--color-secondary);
+    margin: 0 auto;
+  }
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea {
+  font-family: inherit;
+  height: 4rem;
+  width: 50rem;
+  margin: 0.3rem 0;
+  border: none;
+  background-color: var(--color-secondary);
+  border-radius: 3px;
+  color: #fff;
+  padding: 1rem 1rem;
+  font-size: 1.8rem;
+
+  &::placeholder {
+    color: #bcbcba;
+  }
+
+  @media only screen and (max-width: $bp-smartphone) {
+    width: 90vw;
+  }
+}
+
+textarea {
+  height: 12rem;
+}
+
+svg {
+  fill: #fff;
+}
+
+// MIXIN
+
+@mixin posAbs {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+}

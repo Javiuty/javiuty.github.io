@@ -1,0 +1,106 @@
+[
+  {
+    "id": "0",
+    "imagen": "/assets/projects/zoe_cedrion.png",
+    "title": "Zoe",
+    "subtitle": "React / scss",
+    "source": "https://github.com/Lab-box-cedrion/zoe",
+    "demo": "/assets/videos/zoe.mov"
+  },
+  {
+    "id": "1",
+    "imagen": "/assets/projects/mole.jpg",
+    "title": "Feed Mole",
+    "subtitle": "Javascript / JS",
+    "source": "https://github.com/Javiuty/feed-A-Star-Mole",
+    "demo": "https://feedmole.netlify.app/"
+  },
+  {
+    "id": "2",
+    "imagen": "/assets/projects/covid.png",
+    "title": "Covid 19",
+    "subtitle": "React",
+    "source": "https://github.com/Javiuty/covid19",
+    "demo": "https://covid-web-project.netlify.app/"
+  },
+  {
+    "id": "4",
+    "imagen": "/assets/projects/natours.png",
+    "title": "Natours",
+    "subtitle": "scss",
+    "source": "https://github.com/Javiuty/Natours",
+    "demo": "https://natours-web-project.netlify.app/"
+  },
+  {
+    "id": "5",
+    "imagen": "/assets/projects/nexter.png",
+    "title": "Nexter",
+    "subtitle": "scss",
+    "source": "https://github.com/Javiuty/nexter",
+    "demo": "https://nexter-web-project.netlify.app/"
+  },
+  {
+    "id": "6",
+    "imagen": "/assets/projects/nono.png",
+    "title": "Nonogram",
+    "subtitle": "Javascript / JS",
+    "source": "https://github.com/Javiuty/nonoWild",
+    "demo": "https://wcs-nonogram.netlify.app/"
+  },
+  {
+    "id": "7",
+    "imagen": "/assets/projects/pajita.png",
+    "title": "La Pajita",
+    "subtitle": "React / Node",
+    "source": "https://github.com/Javiuty/LaPajitaHackaton",
+    "demo": "/assets/videos/la_pajita.mp4"
+  },
+  {
+    "id": "8",
+    "imagen": "/assets/projects/panicfridge.png",
+    "title": "Panic Fridge",
+    "subtitle": "React",
+    "source": "https://github.com/Javiuty/panic_fridge",
+    "demo": "https://panicfridge.netlify.app/"
+  },
+  {
+    "id": "9",
+    "imagen": "/assets/projects/pig.jpg",
+    "title": "Pig Game",
+    "subtitle": "Javascript / JS",
+    "source": "https://github.com/Javiuty/roll_the_dice",
+    "demo": "https://pig-game-web-project.netlify.app/"
+  },
+  {
+    "id": "10",
+    "imagen": "/assets/projects/temperature.jpg",
+    "title": "Temperature Sensor",
+    "subtitle": "Node / Arduino",
+    "source": "https://github.com/Javiuty/termostato_arduino",
+    "demo": "/assets/videos/sensor_temperature.mp4"
+  },
+  {
+    "id": "11",
+    "imagen": "/assets/projects/trillo.png",
+    "title": "Trillo",
+    "subtitle": "scss",
+    "source": "https://github.com/Javiuty/trillo",
+    "demo": "https://trillo-web-project.netlify.app/"
+  },
+  {
+    "id": "12",
+    "imagen": "/assets/projects/weather.jpg",
+    "title": "Weather PWA",
+    "subtitle": "React",
+    "source": "https://github.com/Javiuty/pwa_react",
+    "demo": "https://itscold.netlify.app/"
+  },
+  {
+    "id": "13",
+    "imagen": "/assets/projects/hotel-gatsby.jpg",
+    "title": "Hotel Gatsby",
+    "subtitle": "React / Gatsby",
+    "source": "https://github.com/javiuty/hotel-gatsby",
+    "demo": "https://hotel-gatsby-web.netlify.app/"
+  }
+]
