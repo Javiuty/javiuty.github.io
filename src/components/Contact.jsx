@@ -75,29 +75,32 @@ const Contact = () => {
               type={"success"}
             />
           )}
-          <label>
+          <label htmlFor="name">
             <input
               className="name"
               type="text"
               name="name"
+              id="name"
               placeholder="Name"
               onChange={updateForm}
             />
           </label>
-          <label>
+          <label htmlFor="email">
             <input
               className="email"
               type="email"
               name="email"
+              id="email"
               placeholder="Enter email"
               onChange={updateForm}
             />
           </label>
-          <label>
+          <label htmlFor="message">
             <textarea
               className="message"
               placeholder="Your message"
               name="message"
+              id="message"
               onChange={updateForm}
             ></textarea>
           </label>
