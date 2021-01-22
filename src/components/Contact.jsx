@@ -76,6 +76,8 @@ const Contact = () => {
             />
           )}
           <label htmlFor="name">
+            {" "}
+            Name
             <input
               className="name"
               type="text"
@@ -86,6 +88,8 @@ const Contact = () => {
             />
           </label>
           <label htmlFor="email">
+            {" "}
+            Email
             <input
               className="email"
               type="email"
@@ -96,6 +100,8 @@ const Contact = () => {
             />
           </label>
           <label htmlFor="message">
+            {" "}
+            Message
             <textarea
               className="message"
               placeholder="Your message"
