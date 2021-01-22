@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.62e963e4.chunk.css",
-    "main.js": "/static/js/main.19cbf15c.chunk.js",
-    "main.js.map": "/static/js/main.19cbf15c.chunk.js.map",
+    "main.css": "/static/css/main.14741b89.chunk.css",
+    "main.js": "/static/js/main.fe2bad06.chunk.js",
+    "main.js.map": "/static/js/main.fe2bad06.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.02b3c7a9.js",
     "runtime-main.js.map": "/static/js/runtime-main.02b3c7a9.js.map",
     "static/js/2.255fcbbf.chunk.js": "/static/js/2.255fcbbf.chunk.js",
     "static/js/2.255fcbbf.chunk.js.map": "/static/js/2.255fcbbf.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.62e963e4.chunk.css.map": "/static/css/main.62e963e4.chunk.css.map",
+    "static/css/main.14741b89.chunk.css.map": "/static/css/main.14741b89.chunk.css.map",
     "static/js/2.255fcbbf.chunk.js.LICENSE.txt": "/static/js/2.255fcbbf.chunk.js.LICENSE.txt",
     "static/media/JEscuadra_CV.fa255818.pdf": "/static/media/JEscuadra_CV.fa255818.pdf",
     "static/media/archive.6e1255ec.svg": "/static/media/archive.6e1255ec.svg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.02b3c7a9.js",
     "static/js/2.255fcbbf.chunk.js",
-    "static/css/main.62e963e4.chunk.css",
-    "static/js/main.19cbf15c.chunk.js"
+    "static/css/main.14741b89.chunk.css",
+    "static/js/main.fe2bad06.chunk.js"
   ]
 }
