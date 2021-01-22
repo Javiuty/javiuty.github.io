@@ -14,6 +14,8 @@ const App = () => {
     ReactGA.initialize("181303345");
   }, []);
 
+  console.log("App init...");
+
   return (
     <>
       <header>
