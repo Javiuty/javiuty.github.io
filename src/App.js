@@ -7,11 +7,15 @@ import Info from "./components/Info";
 import Projects from "./components/Projects";
 
 import ReactGA from "react-ga";
+import TagManager from "react-gtm-module";
 
 const App = () => {
   // Google analytics
   useEffect(() => {
     ReactGA.initialize("181303345");
+    TagManager.initialize({
+      gtmId: "GTM-NGS4X786",
+    })
   }, []);
 
   console.log("App init...");
